@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+
+.hero {
+    height: 100vh;
+    background-image: linear-gradient(to right , rgb(62, 159, 224) , rgb(23, 146, 119) ,rgb(5, 253, 137));
+}
+
+.about {
+    height: 100vh;
+    background-image: linear-gradient(to right , rgb(241, 131, 149) , rgb(245, 13, 13));
+
+    padding-inline: 1rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.counters {
+    display: flex;
+    gap: 1rem;
+    flex-grow: 1;
+    
+}
+
+.counter {
+    background-color: yellow;
+    border-radius: 50px;
+    width: 50%;
+    padding-block: 1rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+
+    font-size: 1.5rem;
+}
